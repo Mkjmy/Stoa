@@ -1,0 +1,4 @@
+#!/bin/bash
+# Stoa CLI Wrapper
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+$SCRIPT_DIR/venv/bin/python3 $SCRIPT_DIR/stoa.py "$@"

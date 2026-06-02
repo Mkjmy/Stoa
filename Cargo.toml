@@ -1,0 +1,19 @@
+[package]
+name = "stoa"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = { version = "0.34.3", features = ["persistence"] }
+egui = "0.34.3"
+egui_extras = "0.34.3"
+egui_commonmark = "0.23.0"
+tokio = { version = "1.52.3", features = ["full"] }
+reqwest = { version = "0.13.4", features = ["json"] }
+scraper = "0.27.0"
+serde = { version = "1.0.228", features = ["derive"] }
+anyhow = "1.0.102"
+rand = "0.10.1"
+futures = "0.3.32"
+poll-promise = { version = "0.3.0", features = ["tokio"] }
+regex = "1.12.3"
